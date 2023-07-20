@@ -4,7 +4,7 @@ import (
 	"errors"
 	"log"
 
-	"github.com/WesleyWu/go-lifespan/example/foo"
+	"github.com/wesleywu/go-lifespan/example/foo"
 )
 
 func CallFoo() error {

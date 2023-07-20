@@ -1,4 +1,4 @@
-module github.com/WesleyWu/go-lifespan
+module github.com/wesleywu/go-lifespan
 
 go 1.15
 

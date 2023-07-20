@@ -8,8 +8,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/WesleyWu/go-lifespan/example/bar"
-	"github.com/WesleyWu/go-lifespan/lifespan"
+	"github.com/wesleywu/go-lifespan/example/bar"
+	"github.com/wesleywu/go-lifespan/lifespan"
 )
 
 // main demonstrating the usage of OnBoostrap and OnShutdown

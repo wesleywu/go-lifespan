@@ -4,7 +4,7 @@ import (
 	"context"
 	"log"
 
-	"github.com/WesleyWu/go-lifespan/lifespan"
+	"github.com/wesleywu/go-lifespan/lifespan"
 )
 
 const componentName = "foo"
