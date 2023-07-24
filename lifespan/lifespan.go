@@ -31,7 +31,7 @@ func OnShutdown(ctx context.Context) {
 	shutdownOnce.Do(func() {
 		executedHooks := make(map[string]interface{})
 		for hookName, hook := range shutdownHooks {
-			err := executeHook(ctx, hook, bootstrapHooks, executedHooks)
+			err := executeHook(ctx, hook, shutdownHooks, executedHooks)
 			if err != nil {
 				if hook.mandatory {
 					log.Fatalf("Shutdown hook %s error %+v\n", hookName, err)
